@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="title-logo" src="http://loremflickr.com/100/100/paris" alt="Udacity logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="text-thin title-super">Jane Doette</h1>
+                <h4>Frontend Ninja</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="http://loremflickr.com/1140/350/paris" class="img-responsive" alt="Main content">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="http://loremflickr.com/300/200/paris" class="img-responsive center-block" alt="Appify" data-toggle="modal" data-target="#project1">
+                <h3 class="text-uppercase">Appify</h3>
+                <p><a href="https://github.com/Udacity/Appify">https://github.com/Udacity/Appify</a></p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="http://loremflickr.com/300/200/paris" class="img-responsive center-block" alt="Sunflower">
+                <h3 class="text-uppercase">Sunflower</h3>
+                <p><a href="https://github.com/Udacity/sunflower">https://github.com/Udacity/sunflower</a></p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="http://loremflickr.com/300/200/paris" class="img-responsive center-block" alt="Bokeh">
+                <h3 class="text-uppercase">Bokeh</h3>
+                <p><a href="https://github.com/Udacity/bokeh">https://github.com/Udacity/bokeh</a></p>
+            </div>
+        </div>
+    </div>
+
+    <form action="#">
+        <button type="button" name="button" class="btn btn-default"></button>
+    </form>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Appify</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://loremflickr.com/300/200/paris"> This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
